@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8f6762f54dd8b784cb58bc26a73c798f
+timeCreated: 1498427102
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Cabin Sketch
+  fontNames:
+  - Cabin Sketch
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

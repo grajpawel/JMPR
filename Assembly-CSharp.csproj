@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{92E51D36-8663-9CF0-77C6-20008751E9CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_1;UNITY_2017_3;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\2DLightAsset\Examples\RigidBodyInterpolationSolution\FollowLight2d.cs" />
+     <Compile Include="Assets\2DLightAsset\Scripts\2DLight\DynamicLight.cs" />
+     <Compile Include="Assets\2DLightAsset\Scripts\Helpers\interface_touch.cs" />
+     <Compile Include="Assets\2DLightAsset\Scripts\Helpers\interface_touch2.cs" />
+     <Compile Include="Assets\2DLightAsset\Scripts\Helpers\TablaSenoCoseno.cs" />
+     <Compile Include="Assets\2DLightAsset\Scripts\rotate.cs" />
+     <Compile Include="Assets\AudioFixPlugin\AudioCenter.cs" />
+     <Compile Include="Assets\AvgSpeedText.cs" />
+     <Compile Include="Assets\BannerAd.cs" />
+     <Compile Include="Assets\BgFollow.cs" />
+     <Compile Include="Assets\BGMove.cs" />
+     <Compile Include="Assets\BoostButton.cs" />
+     <Compile Include="Assets\CameraY.cs" />
+     <Compile Include="Assets\CloudMove.cs" />
+     <Compile Include="Assets\CoinDebug.cs" />
+     <Compile Include="Assets\CoinMove.cs" />
+     <Compile Include="Assets\CoinMove2.cs" />
+     <Compile Include="Assets\ColSize.cs" />
+     <Compile Include="Assets\ContIcon.cs" />
+     <Compile Include="Assets\ContIconTap.cs" />
+     <Compile Include="Assets\DistanceScore.cs" />
+     <Compile Include="Assets\DontDestroy.cs" />
+     <Compile Include="Assets\DontDestroy2.cs" />
+     <Compile Include="Assets\EndGameButton.cs" />
+     <Compile Include="Assets\EndScoreMove.cs" />
+     <Compile Include="Assets\EnemyMove.cs" />
+     <Compile Include="Assets\FinishScore.cs" />
+     <Compile Include="Assets\FlagMove.cs" />
+     <Compile Include="Assets\FlagSound.cs" />
+     <Compile Include="Assets\FloorTeleport.cs" />
+     <Compile Include="Assets\GameCameraMove.cs" />
+     <Compile Include="Assets\GameScoreText.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdLoader.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Mediation\MediationExtras.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\MobileAds.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\NativeExpressAdView.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Reward.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IMobileAdsClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\INativeExpressAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\Utils.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\MobileAdsClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\AdLoaderClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MobileAdsClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\NativeExpressAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Achievement.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\CommonStatusCodes.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\CommonTypes.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\DummyClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Events\IEvent.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Events\IEventsClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\IPlayGamesClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\LeaderboardScoreData.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\Invitation.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\IRealTimeMultiplayerClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\ITurnBasedMultiplayerClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\MatchOutcome.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\Participant.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\Player.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\RealTimeMultiplayerListener.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\TurnBasedMatch.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\AdvertisingResult.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\ConnectionRequest.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\ConnectionResponse.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\DummyNearbyConnectionClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\EndpointDetails.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\INearbyConnectionClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\NearbyConnectionConfiguration.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\PlayerStats.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\PlayGamesClientConfiguration.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Quests\IQuest.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Quests\IQuestMilestone.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Quests\IQuestsClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\ISavedGameClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\ISavedGameMetadata.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\SavedGameMetadataUpdate.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\ScorePageToken.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Video\CaptureOverlayStateListener.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Video\iVideoClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Video\VideoCapabilities.cs" />
+     <Compile Include="Assets\GooglePlayGames\BasicApi\Video\VideoCaptureState.cs" />
+     <Compile Include="Assets\GooglePlayGames\GameInfo.cs" />
+     <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesAchievement.cs" />
+     <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesLeaderboard.cs" />
+     <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesLocalUser.cs" />
+     <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesPlatform.cs" />
+     <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesScore.cs" />
+     <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesUserProfile.cs" />
+     <Compile Include="Assets\GooglePlayGames\OurUtils\Logger.cs" />
+     <Compile Include="Assets\GooglePlayGames\OurUtils\Misc.cs" />
+     <Compile Include="Assets\GooglePlayGames\OurUtils\PlatformUtils.cs" />
+     <Compile Include="Assets\GooglePlayGames\OurUtils\PlayGamesHelperObject.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidTokenClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Developers\JavaInterfaceProxy.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Developers\JavaObjWrapper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\GoogleApiClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\PendingResult.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\Result.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\ResultCallback.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\ResultCallbackProxy.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\Status.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\ConnectionResult.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Games.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Stats\LoadPlayerStatsResultObject.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Stats\PlayerStats.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Stats\PlayerStatsObject.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Stats\Stats.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Stats\StatsObject.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\IClientImpl.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\IOS\IOSClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\IOS\IOSTokenClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\CallbackUtils.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\ConversionUtils.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Achievement.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\AchievementManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\AndroidPlatformConfiguration.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Builder.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\CaptureOverlayStateListenerHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\CommonErrorStatus.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\EndpointDiscoveryListenerHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Event.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\EventManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\GameServices.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\InternalHooks.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\IosPlatformConfiguration.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Leaderboard.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\LeaderboardManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\MessageListenerHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\MultiplayerInvitation.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\MultiplayerParticipant.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\NearbyConnections.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\NearbyConnectionsBuilder.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\NearbyConnectionsStatus.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\NearbyConnectionTypes.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\ParticipantResults.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Player.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\PlayerManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\PlayerStats.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Quest.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\QuestManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\QuestMilestone.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\RealTimeEventListenerHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\RealTimeMultiplayerManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\RealTimeRoom.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\RealTimeRoomConfig.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\RealTimeRoomConfigBuilder.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Score.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\ScorePage.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\ScoreSummary.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Sentinels.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\SnapshotManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\SnapshotMetadata.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\SnapshotMetadataChange.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\SnapshotMetadataChangeBuilder.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\StatsManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Status.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\SymbolLocation.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\TurnBasedMatch.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\TurnBasedMatchConfig.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\TurnBasedMatchConfigBuilder.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\TurnBasedMultiplayerManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Types.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\VideoCapabilities.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\VideoCaptureState.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\VideoManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\JavaUtils.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeEventClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeNearbyConnectionClientFactory.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeNearbyConnectionsClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeQuestClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeRealtimeMultiplayerClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeSavedGameClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeTurnBasedMultiplayerClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeVideoClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\AchievementManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\AndroidPlatformConfiguration.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\BaseReferenceHolder.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\Callbacks.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\CaptureOverlayStateListenerHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\EventManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\GameServices.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\GameServicesBuilder.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\IosPlatformConfiguration.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\LeaderboardManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\MultiplayerInvitation.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\MultiplayerParticipant.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeAchievement.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeAppIdentifier.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeConnectionRequest.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeConnectionResponse.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeEndpointDetails.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeEndpointDiscoveryListenerHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeEvent.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeLeaderboard.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeMessageListenerHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativePlayer.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativePlayerStats.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeQuest.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeQuestMilestone.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeRealTimeRoom.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeScore.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeScoreEntry.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeScorePage.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeScorePageToken.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeScoreSummary.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeSnapshotMetadata.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeSnapshotMetadataChange.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeStartAdvertisingResult.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeTurnBasedMatch.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeVideoCapabilities.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeVideoCaptureState.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NearbyConnectionsManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NearbyConnectionsManagerBuilder.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\ParticipantResults.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\PInvokeUtilities.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\PlatformConfiguration.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\PlayerManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\PlayerSelectUIResponse.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\QuestManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\RealTimeEventListenerHelper.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\RealtimeManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\RealtimeRoomConfig.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\RealtimeRoomConfigBuilder.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\SnapshotManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\StatsManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\TurnBasedManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\TurnBasedMatchConfig.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\TurnBasedMatchConfigBuilder.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\VideoManager.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\Native\UnsupportedSavedGamesClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\NearbyConnectionClientFactory.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\PlayGamesClientFactory.cs" />
+     <Compile Include="Assets\GooglePlayGames\Platforms\TokenClient.cs" />
+     <Compile Include="Assets\GooglePlayGames\PluginVersion.cs" />
+     <Compile Include="Assets\GPGSIds.cs" />
+     <Compile Include="Assets\HighScore.cs" />
+     <Compile Include="Assets\InfoButton.cs" />
+     <Compile Include="Assets\LeaderBoardButton.cs" />
+     <Compile Include="Assets\piermove.cs" />
+     <Compile Include="Assets\PlayerMovement.cs" />
+     <Compile Include="Assets\RepeatButton.cs" />
+     <Compile Include="Assets\ScaleMove.cs" />
+     <Compile Include="Assets\Screenshot.cs" />
+     <Compile Include="Assets\SignOutButton.cs" />
+     <Compile Include="Assets\SoundButton.cs" />
+     <Compile Include="Assets\StartButton.cs" />
+     <Compile Include="Assets\StartInfoButton.cs" />
+     <Compile Include="Assets\TapFade.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\CameraController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ChatController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\TimesText.cs" />
+     <Compile Include="Assets\Triangles\FloorScript.cs" />
+     <Compile Include="Assets\VideoAd.cs" />
+     <Compile Include="Assets\WavySprite\Scripts\WavySprite.cs" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\DOTween\readme.txt" />
+     <None Include="Assets\TextMesh Pro\Fonts\Anton OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\DOTween\DOTween46.xml" />
+     <None Include="Assets\2DLightAsset\Shaders\Gradient-NoTexture-Radial-SingleColor-ToTransparent-RegularUV-AlphaBlend.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\2DLightAsset\Shaders\NoTexture.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\DOTween\DOTween43.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\WavySprite\readme.txt" />
+     <None Include="Assets\DOTween\DOTween50.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\PlayServicesResolver\proguard-messaging-workaround.txt" />
+     <None Include="Assets\TextMesh Pro\Fonts\Bangers - OFL.txt" />
+     <None Include="Assets\PlayServicesResolver\proguard-unity.txt" />
+     <None Include="Assets\2DLightAsset\Shaders\Gradient-ZFighting.shader" />
+     <None Include="Assets\WavySprite\Shaders\WavySprite.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>E:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>E:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>E:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/Backup/Jumper/Assets/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/Backup/Jumper/Assets/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/Backup/Jumper/Assets/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/Backup/Jumper/Assets/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>E:/Backup/Jumper/Assets/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.31.0">
+ <HintPath>E:/Backup/Jumper/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.31.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.31.0">
+ <HintPath>E:/Backup/Jumper/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.31.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler_v1.2.31.0">
+ <HintPath>E:/Backup/Jumper/Assets/PlayServicesResolver/Editor/Google.VersionHandler_v1.2.31.0.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-1.0.55.56.0b9">
+ <HintPath>E:/Backup/Jumper/Assets/TextMesh Pro/Plugins/TextMeshPro-1.0.55.56.0b9.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-1.0.55.56.0b9-Editor">
+ <HintPath>E:/Backup/Jumper/Assets/TextMesh Pro/Plugins/Editor/TextMeshPro-1.0.55.56.0b9-Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/grajp/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Users/grajp/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/grajp/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Users/grajp/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/grajp/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Users/grajp/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/grajp/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

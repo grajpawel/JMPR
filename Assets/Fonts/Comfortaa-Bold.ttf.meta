@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: cd9a08338f1f267439190cce79a29bd7
+timeCreated: 1498427111
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Comfortaa
+  fontNames:
+  - Comfortaa
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 437f8a50a524d2740a4a30cd52902bb0, type: 3}
+  - {fileID: 12800000, guid: 650756d0d521b7844b535331d5b01928, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
